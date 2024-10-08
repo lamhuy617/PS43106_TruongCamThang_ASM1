@@ -1,0 +1,152 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.hmenu {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px orangered;
+    list-style: none;
+    background-color: blue;
+    height: 50px;
+}
+
+ul.hmenu>li>a {
+    display: inline;
+    line-height: 50px;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding-left: 25px;
+    color: white;
+    
+}
+
+.hmenu>nav>ul>li>a:hover {
+    color: orangered;
+    font-weight: bolder;
+}
+
+.hmenu>li {
+    float: left;
+    margin: 0px 5px;
+    position: relative;
+}
+
+.hmenu>li:hover>.sub-menu {
+    display: block;
+}
+
+.sub-menu {
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid black;
+    /*border-radius: 5px;*/
+    box-shadow: 0px 0px 5px none;
+    list-style: none;
+    width: 150px;
+    position: absolute;
+    display: none;
+    background-color: white;
+}
+
+.sub-menu>li>a {
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding-left: 25px;
+    font-size: 15px;
+    background: url() no-repeat left center;
+    color: black;
+}
+
+.sub-menu>li>a:hover {
+    background: url() no-repeat left center;
+    color: white;
+    font-weight: bolder;
+    background-color: blue;
+}
+
+.menu {
+    margin: auto;
+}
+
+.menu>header {
+    background-image: url(gdtx.jpg);
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+
+.menu>h1 {
+    width: 600px;
+    height: 200px;
+    border: 1px solid none;
+    position: absolute;
+    bottom: 180px;
+    left: 500px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.menu>article {
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+
+.menu>aside {
+    min-height: 400px;
+    width: 25%;
+    background-color: white;
+    float: right;
+}
+
+#main-content {
+    text-align: center;
+}
+
+#courses ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#courses ul li {
+    background-color: #ddd;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu>footer {
+    background-color: rgb(183, 183, 183);
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    clear: both;
+}
+
+iframe[name=Page] {
+    width: 100%;
+    min-height: 400px;
+}
+
+/* location */
+.map>iframe {
+    border: 2px solid var(--primary-color);
+    padding: 1.4rem;
+    width: 100%;
+    height: 300px;
+}
+
+.location__map iframe {
+    width: 100%;
+}
